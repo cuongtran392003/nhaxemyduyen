@@ -1,0 +1,138 @@
+/* Comments Area */
+.comments-area {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Comments Title */
+.comments-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Comment List */
+.comment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.comment-list li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.comment-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comment-author img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-metadata {
+    font-size: 12px;
+    color: #777;
+}
+
+.comment-content {
+    margin: 10px 0;
+}
+
+.reply {
+    text-align: right;
+}
+
+.reply a {
+    color: #0073aa;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.reply a:hover {
+    text-decoration: underline;
+}
+
+/* Comment Navigation */
+.comment-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.nav-previous a,
+.nav-next a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.nav-previous a:hover,
+.nav-next a:hover {
+    text-decoration: underline;
+}
+
+/* No Comments */
+.no-comments {
+    color: #777;
+    font-style: italic;
+}
+
+/* Comment Form */
+.comment-reply-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.comment-form {
+    display: grid;
+    gap: 15px;
+}
+
+.comment-form-author,
+.comment-form-email,
+.comment-form-url,
+.comment-form-comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.comment-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.comment-form button {
+    padding: 10px 20px;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.comment-form button:hover {
+    background: black;
+}

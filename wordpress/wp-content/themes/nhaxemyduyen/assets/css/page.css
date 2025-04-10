@@ -1,0 +1,78 @@
+/* Định dạng chung cho section nội dung chính */
+.bg-body {
+    background-color: #f5f5f5;
+    /* Màu nền nhạt */
+    padding: 40px 0;
+    /* Padding trên/dưới */
+}
+
+/* Định dạng container */
+.container {
+    max-width: 1200px;
+    /* Chiều rộng tối đa */
+    margin: 0 auto;
+    /* Căn giữa */
+    padding: 0 15px;
+    /* Padding hai bên */
+}
+
+/* Định dạng tiêu đề trang */
+.page-title {
+    font-family: 'Poppins', sans-serif;
+    /* Font Poppins */
+    color: #e53e3e;
+    /* Màu đỏ tùy chỉnh */
+    font-size: 36px;
+    /* Kích thước chữ */
+    font-weight: 600;
+    /* Độ đậm */
+    text-align: center;
+    /* Căn giữa */
+    margin-bottom: 30px;
+    /* Khoảng cách dưới */
+}
+
+/* Định dạng nội dung trang */
+.page-content {
+    font-family: 'Roboto', sans-serif;
+    /* Font cho nội dung */
+    color: #4a4a4a;
+    /* Màu xám đậm */
+    font-size: 16px;
+    /* Kích thước chữ */
+    line-height: 1.6;
+    /* Khoảng cách dòng */
+    max-width: 800px;
+    /* Chiều rộng tối đa của nội dung */
+    margin: 0 auto;
+    /* Căn giữa */
+}
+
+/* Định dạng thông báo không có nội dung */
+.no-content {
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+    /* Màu xám nhạt */
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive: Điều chỉnh cho màn hình nhỏ */
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 28px;
+        /* Giảm kích thước chữ trên mobile */
+        margin-bottom: 20px;
+    }
+
+    .page-content {
+        font-size: 14px;
+        /* Giảm kích thước chữ trên mobile */
+    }
+
+    .container {
+        padding: 0 10px;
+        /* Giảm padding trên mobile */
+    }
+}
