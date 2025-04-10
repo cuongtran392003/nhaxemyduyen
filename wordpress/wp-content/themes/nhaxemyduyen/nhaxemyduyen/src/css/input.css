@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo{
+    @apply w-[110px] h-[69px] md:w-[110px] md:h-[69px]
+    lg:w-[110px] lg:h-[69px] xl:w-[110px] xl:h-[69px] 2xl:w-[110px] 2xl:h-[69px]
+    mx-auto;
+}
+
