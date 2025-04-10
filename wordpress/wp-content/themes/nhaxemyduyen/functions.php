@@ -9,6 +9,7 @@ add_action('after_setup_theme', 'theme_setup');
 
 //css and CDN
 function nhaxemyduyen_enqueue_styles(){
+    wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css', array(), '6.5.0', 'all');
     wp_enqueue_style('nhaxemyduyen_output',get_template_directory_uri().'/nhaxemyduyen/src/css/output.css',array(),'1.0.0','all');
     wp_enqueue_style('swiper-css','https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css',array(),'11.0.0','all');
     wp_enqueue_style('nhaxemyduyen_styles',get_template_directory_uri().'/nhaxemyduyen/src/css/style.css',array(),'1.0.0','all');
@@ -16,6 +17,7 @@ function nhaxemyduyen_enqueue_styles(){
     wp_enqueue_style('post-css',get_template_directory_uri().'/assets/css/post.css',array(),'1.0.0','all');
     wp_enqueue_style('single-css',get_template_directory_uri().'/assets/css/single.css',array(),'1.0.0','all');
     wp_enqueue_style('comments-css',get_template_directory_uri().'/assets/css/comments.css',array(),'1.0.0','all');
+    wp_enqueue_style('sidebar-css',get_template_directory_uri().'/assets/css/sidebar.css',array(),'1.0.0','all');
 } add_action('wp_enqueue_scripts','nhaxemyduyen_enqueue_styles');
 
 // js and CDN 

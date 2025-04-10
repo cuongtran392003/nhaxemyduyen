@@ -275,6 +275,7 @@
     </section>
 
     <?php get_template_part('template/back-to-top'); ?>
+    <?php get_sidebar(); ?>
 
     <?php get_footer(); ?>
 

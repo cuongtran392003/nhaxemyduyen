@@ -1,0 +1,48 @@
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    position: static;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 80%;
+    left:5%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 8px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff; /* màu nền sáng */
+}
+
+.social-links a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.social-fb {
+    color: #3b5998;
+}
+.social-ins{
+    color: #E1306C;
+}
+.social-phone{
+    color: #FF0000;
+}
+.social-zalo{
+    color: #00A1E0;
+}
